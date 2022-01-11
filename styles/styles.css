@@ -31,15 +31,20 @@
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 300px;
+    margin-bottom: 32px;
 }
 
 #photo-content a {
     text-decoration: none;
     background-color: rgb(255, 251, 0);
     padding: 12px 24px;
-    border-radius: 10px;
+    border-radius: 8px;
     color: black;
     font-size: 24px;
     font-weight: bold;
-    
+    box-shadow: 2px 4px 8px rgb(68, 67, 67)
+}
+
+#photo-content a:hover {
+    background-color: rgb(255, 238, 0)
 }
